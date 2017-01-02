@@ -2,8 +2,10 @@
 
 int main()
 {
-	int a = 123,b = 1234567;
-	printf("%05d\n",a);
-	printf("%05d\n",b);
+	double d1 = 12.3456;
+	printf("%.0f\n",d1);
+	printf("%.1f\n",d1);
+	printf("%.3f\n",d1);
+	
 	return 0;
  } 
